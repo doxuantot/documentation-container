@@ -1,0 +1,19 @@
+{
+    "name": "tot/documentation-container",
+    "description": "Documentation generator container for Apiato.",
+    "version": "1.0.0",
+    "type": "tot-container",
+    "license": "MIT",
+    "extra": {
+        "tot": {
+            "container": {
+                "name": "Documentation"
+            }
+        },
+        "laravel": {
+            "providers": [
+                "App\\Containers\\Vendor\\Documentation\\Providers\\DocumentGeneratorServiceProvider"
+            ]
+        }
+    }
+}
