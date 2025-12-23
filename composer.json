@@ -1,6 +1,6 @@
 {
     "name": "tot/documentation-container",
-    "description": "Documentation generator container for Apiato.",
+    "description": "Documentation generator container.",
     "version": "1.0.0",
     "type": "tot-container",
     "license": "MIT",
@@ -17,3 +17,4 @@
         }
     }
 }
+
